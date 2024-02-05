@@ -1,0 +1,19 @@
+[package]
+name = "one-wire-hal"
+version = "0.1.0"
+authors = ["Bart Weber"]
+
+edition = "2021"
+rust-version = "1.75.0"
+
+description = "A HAL for one-wire devices"
+categories = ["embedded", "no-std"]
+keywords = ["embedded", "no-std", "one-wire", "hal"]
+readme = "README.md"
+
+[features]
+defmt-03 = ["dep:defmt-03"]
+
+[dependencies]
+embedded-hal = "1.0.0"
+defmt-03 = { package = "defmt", version = "0.3", optional = true }
