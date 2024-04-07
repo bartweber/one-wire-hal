@@ -4,6 +4,7 @@ use crate::{commands, crc, OneWire};
 use crate::address::Address;
 use crate::triplet::Triplet;
 
+// TODO: add documentation
 pub struct DeviceSearch<'a, O, D>
 {
     one_wire: &'a mut O,

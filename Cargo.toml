@@ -6,7 +6,7 @@ authors = ["Bart Weber"]
 edition = "2021"
 rust-version = "1.75.0"
 
-description = "A HAL for one-wire devices"
+description = "A HAL for 1-wire devices"
 categories = ["embedded", "no-std"]
 keywords = ["embedded", "no-std", "one-wire", "hal"]
 readme = "README.md"
